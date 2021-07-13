@@ -9,7 +9,7 @@
 title: Le temps d'un jeu
 brief-intro: Site web de l'association ludique
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://.github.io" # the base hostname & protocol for your site
+url: "https://florentdev64.github.io/letempsdunjeu.github.io/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
