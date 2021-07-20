@@ -52,7 +52,7 @@ type: page
                 <ul id="content-side" class="content-ul">
                     {% assign counter = 0 %}
                     {% for post in site.posts %}
-                        {% if post.tags.size != 0 %}
+                        {% unless post.tags.size == 0 %}
 
                           {% assign thisyear = post.date | date: "%Y" %}
                           {% assign prevyear = post.previous.date | date: "%Y" %}
@@ -61,7 +61,7 @@ type: page
                             <li><a data-scroll href="#y{{ post.date | date: '%Y' }}">{{ thisyear }} ({{ counter }})</a></li>
                             {% assign counter = 0 %}
                             {% endif %}
-                        {% endif %}
+                        {% endunless %}
                     {% endfor %}
                 </ul>
             </div>
