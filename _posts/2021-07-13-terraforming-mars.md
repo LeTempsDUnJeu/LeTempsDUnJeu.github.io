@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Terraforming mars"
-tags: ["Draft", "Deck Building"]
+tags: ["Draft", "Deck Building", "Gestion de main", "Placement de tuiles", "1 joueur", "2 joueurs", "3 joueurs", "4 joueurs", "5 joueurs", "Best 3"]
 owner: [ "Florent Devin"]
 author: "Florent Devin"
 mathjax: true
@@ -15,10 +15,28 @@ mathjax: true
 
 
 ## Présentation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed pretium dui, eget porttitor lorem. Praesent elementum id neque eu condimentum. Duis vehicula rhoncus nunc, non pulvinar nibh pulvinar vel. Pellentesque rhoncus arcu ante, eu dictum neque maximus eget. Mauris viverra augue non cursus luctus. Suspendisse porta pharetra mattis. Curabitur risus eros, fringilla ut urna mattis, aliquet sodales massa. Cras nec urna non erat vulputate mattis. Suspendisse iaculis dui a auctor tristique. Ut quis est est. Vivamus tristique vel erat id lacinia. Integer lacus erat, rhoncus in fringilla at, sagittis sit amet ex. Integer sollicitudin, mi ac fermentum facilisis, odio augue fermentum enim, ut consectetur magna ex ullamcorper lorem. Nunc consectetur, tortor at imperdiet hendrerit, lorem purus mollis ante, id rutrum nisi mi ac velit.
+Dans les années 2400, l'humanité commence à terraformer la planète Mars. Des sociétés géantes, parrainées par le gouvernement mondial sur Terre, lancent d'énormes projets pour augmenter la température, le niveau d'oxygène et la couverture océanique jusqu'à ce que l'environnement soit habitable. Dans Terraforming Mars, vous jouez le rôle d'une de ces entreprises et vous travaillez ensemble au processus de terraformation, mais vous êtes en compétition pour obtenir des points de victoire qui sont attribués non seulement pour votre contribution à la terraformation, mais aussi pour l'avancement de l'infrastructure humaine dans tout le système solaire, et pour d'autres actions louables.
 
-Nullam in est ac odio sodales commodo in at elit. Mauris elementum magna nec interdum eleifend. Aenean facilisis, leo ac euismod imperdiet, purus arcu tempor ligula, ut venenatis purus nisl a lectus. Phasellus urna orci, feugiat condimentum orci et, luctus dictum erat. Quisque suscipit malesuada nulla, vitae vestibulum mi cursus nec. Integer sagittis lobortis tellus ac gravida. Sed facilisis pretium viverra. Donec augue massa, malesuada id suscipit sed, tristique vitae dolor. Sed suscipit felis eget nulla sodales, sed faucibus orci viverra.
+Les joueurs acquièrent des cartes de projet uniques (parmi plus de deux cents différentes) en les achetant à leur main. Les projets (cartes) peuvent représenter n'importe quoi, depuis l'introduction de la vie végétale ou animale, le lancement d'astéroïdes à la surface, la construction de villes, jusqu'à l'exploitation minière des lunes de Jupiter et la création d'industries de gaz à effet de serre pour réchauffer l'atmosphère. Les cartes peuvent vous donner des bonus immédiats, ainsi qu'augmenter votre production de différentes ressources. De nombreuses cartes ont également des exigences et elles deviennent jouables lorsque la température, l'oxygène ou la couverture océanique augmentent suffisamment. L'achat de cartes est coûteux, il y a donc un équilibre entre l'achat de cartes (3 mégacrédits par carte) et le fait de les jouer (ce qui peut coûter entre 0 et 41 mégacrédits, selon le projet). Les projets standard sont toujours disponibles pour compléter vos cartes.
 
-Aliquam risus neque, dignissim eu ante vel, dictum molestie nunc. Nunc facilisis massa eget arcu rhoncus, non auctor diam convallis. Nullam tincidunt nisi sed sem faucibus, vitae placerat mauris auctor. Fusce leo nisl, scelerisque at convallis maximus, laoreet ac metus. Ut vulputate libero vel convallis congue. Morbi aliquam, quam nec porttitor hendrerit, arcu mauris mollis lacus, nec pharetra nunc ante ac mauris. Duis fermentum bibendum ultricies. Donec eleifend ullamcorper quam, eu egestas sem aliquam semper. In pharetra enim ut lacus commodo, ut scelerisque diam luctus. Ut convallis metus justo, in ullamcorper massa vehicula quis. Donec varius vehicula aliquet. Pellentesque sollicitudin, lacus sed suscipit pretium, enim libero finibus lorem, vel elementum nisl augue vel leo. Quisque malesuada volutpat nibh, sit amet blandit erat ultricies nec. Donec vel felis felis. Duis laoreet arcu risus, id finibus justo convallis vel. Vivamus vehicula lectus lacus, sit amet iaculis purus ornare et.
+Votre revenu de base, ainsi que votre score de base, est basé sur votre cote Terraform (qui commence à 20), qui augmente chaque fois que vous augmentez l'un des trois paramètres globaux. Cependant, votre revenu est complété par votre production, et vous obtenez également des PV de nombreuses autres sources.
+
+Chaque joueur garde la trace de sa production et de ses ressources sur son plateau de jeu, et le jeu utilise six types de ressources : MégaCrédits, Acier, Titane, Plantes, Énergie et Chaleur. Sur le plateau de jeu, vous vous disputez les meilleurs emplacements pour vos tuiles ville, océan et verdure. Vous êtes également en compétition pour obtenir différents jalons et récompenses valant de nombreux PV. Chaque tour est appelé une génération (devinez pourquoi) et se compose des phases suivantes :
+
+1. L'ordre des joueurs change dans le sens des aiguilles d'une montre.
+2. *Phase de recherche* : Tous les joueurs achètent des cartes parmi les quatre tirées au sort.
+3. *Phase d'action* : Les joueurs effectuent à tour de rôle une ou deux actions parmi les options suivantes :
+    * Jouer une carte ;
+	* revendiquer une étape importante ;
+	* financer une récompense ;
+	* utiliser un projet standard ;
+	* convertir des tuiles de plantes en verdure (et augmenter l'oxygène) ;
+	* convertir la chaleur en augmentation de température ;
+	* utiliser l'action d'une carte en jeu.
+
+    Le tour continue autour de la table (parfois plusieurs tours) jusqu'à ce que tous les joueurs aient passé.
+4. *Phase de production* : Les joueurs obtiennent des ressources en fonction de la cote de leur terraforme et des paramètres de production.
+
+Lorsque les trois paramètres globaux (température, oxygène, océan) ont tous atteint leur objectif, la terraformation est terminée, et le jeu se termine après cette génération. Comptez votre indice de terraformation et les autres PV pour déterminer la corporation gagnante !
 
 ---

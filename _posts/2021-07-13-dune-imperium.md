@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dune Imperium"
-tags: ["Draft", "Deck Building", "Pose d'ouvriers"]
+tags: ["Draft", "Deck Building", "Pose d'ouvriers", "1 joueur", "2 joueurs", "3 joueurs", "4 joueurs", "Best 3", "Best 4"]
 owner: [ "Florent Devin", "Thierry Pradelle"]
 author: "Florent Devin"
 mathjax: true
@@ -15,10 +15,16 @@ mathjax: true
 
 
 ## Présentation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed pretium dui, eget porttitor lorem. Praesent elementum id neque eu condimentum. Duis vehicula rhoncus nunc, non pulvinar nibh pulvinar vel. Pellentesque rhoncus arcu ante, eu dictum neque maximus eget. Mauris viverra augue non cursus luctus. Suspendisse porta pharetra mattis. Curabitur risus eros, fringilla ut urna mattis, aliquet sodales massa. Cras nec urna non erat vulputate mattis. Suspendisse iaculis dui a auctor tristique. Ut quis est est. Vivamus tristique vel erat id lacinia. Integer lacus erat, rhoncus in fringilla at, sagittis sit amet ex. Integer sollicitudin, mi ac fermentum facilisis, odio augue fermentum enim, ut consectetur magna ex ullamcorper lorem. Nunc consectetur, tortor at imperdiet hendrerit, lorem purus mollis ante, id rutrum nisi mi ac velit.
+**Dune : Imperium** est un jeu qui s'inspire des éléments et des personnages de l'héritage de Dune, à la fois le nouveau film de Legendary Pictures et la série littéraire de Frank Herbert, Brian Herbert et Kevin J. Anderson.
 
-Nullam in est ac odio sodales commodo in at elit. Mauris elementum magna nec interdum eleifend. Aenean facilisis, leo ac euismod imperdiet, purus arcu tempor ligula, ut venenatis purus nisl a lectus. Phasellus urna orci, feugiat condimentum orci et, luctus dictum erat. Quisque suscipit malesuada nulla, vitae vestibulum mi cursus nec. Integer sagittis lobortis tellus ac gravida. Sed facilisis pretium viverra. Donec augue massa, malesuada id suscipit sed, tristique vitae dolor. Sed suscipit felis eget nulla sodales, sed faucibus orci viverra.
+En tant que dirigeant de l'une des grandes maisons du Landsraad, levez votre bannière et rassemblez vos forces et vos espions. La guerre approche, et au centre du conflit se trouve Arrakis - Dune, la planète déserte.
 
-Aliquam risus neque, dignissim eu ante vel, dictum molestie nunc. Nunc facilisis massa eget arcu rhoncus, non auctor diam convallis. Nullam tincidunt nisi sed sem faucibus, vitae placerat mauris auctor. Fusce leo nisl, scelerisque at convallis maximus, laoreet ac metus. Ut vulputate libero vel convallis congue. Morbi aliquam, quam nec porttitor hendrerit, arcu mauris mollis lacus, nec pharetra nunc ante ac mauris. Duis fermentum bibendum ultricies. Donec eleifend ullamcorper quam, eu egestas sem aliquam semper. In pharetra enim ut lacus commodo, ut scelerisque diam luctus. Ut convallis metus justo, in ullamcorper massa vehicula quis. Donec varius vehicula aliquet. Pellentesque sollicitudin, lacus sed suscipit pretium, enim libero finibus lorem, vel elementum nisl augue vel leo. Quisque malesuada volutpat nibh, sit amet blandit erat ultricies nec. Donec vel felis felis. Duis laoreet arcu risus, id finibus justo convallis vel. Vivamus vehicula lectus lacus, sit amet iaculis purus ornare et.
+Dune : Imperium utilise le deck-building pour ajouter un angle d'information cachée au placement traditionnel d'ouvriers.
+
+Vous commencez avec une carte de leader unique, ainsi qu'un deck identique à ceux de vos adversaires. En acquérant des cartes et en construisant votre deck, vos choix définiront vos forces et vos faiblesses. Les cartes vous permettent d'envoyer vos agents dans certains espaces du plateau de jeu, de sorte que l'évolution de votre deck affecte votre stratégie. Vous pouvez devenir plus puissant militairement, en étant capable de déployer plus de troupes que vos adversaires. Vous pouvez aussi acquérir des cartes qui vous donnent un avantage sur les quatre factions politiques représentées dans le jeu : l'Empereur, la Guilde des Espaces, le Bene Gesserit et les Fremen.
+
+Contrairement à de nombreux jeux de construction de cartes, vous ne jouez pas toute votre main en un seul tour. Au lieu de cela, vous tirez une main de cartes au début de chaque tour et alternez avec les autres joueurs, en prenant un tour d'agent à la fois (en jouant une carte pour envoyer un de vos agents sur le plateau de jeu). Lorsque c'est votre tour et que vous n'avez plus d'agents à placer, vous faites un tour de révélation, révélant le reste de vos cartes, qui vous fourniront la Persuasion et les Épées. La Persuasion est utilisée pour acquérir plus de cartes, et les Épées aident vos troupes à se battre pour les récompenses du tour en cours, comme indiqué sur la carte Conflit révélée.
+
+Battez vos rivaux au combat, naviguez astucieusement entre les factions politiques et obtenez les précieuses cartes The Spice Must Flow pour mener votre Maison à la victoire !
 
 ---
