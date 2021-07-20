@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="page clearfix" index>
-    <div class="left">
-        <h1>Bienvenue sur le site web de l'assocation</h1>
-	<h2>Le temps d'un jeu</h2>
+  <div class="left">
+    <h1>Dernières nouvelles</h1>
         <hr>
         <ul>
-            {% for post in paginator.posts %}
+          {% for post in paginator.posts %}
+          {% if post.tags.size == 0 %}
               <li>
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -29,9 +29,6 @@ layout: default
                     {% include category.html %}
                     </div>
 
-                    <div class="label-card">
-                    {% include tag.html %}
-                    </div>
                 </div>
                 <div class="excerpt">
                     {{post.excerpt}}
@@ -41,6 +38,7 @@ layout: default
                 </div>
                 <hr>
               </li>
+              {% endif %}
             {% endfor %}
         </ul>
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archives
+title: Toutes les news
 permalink: /archive/
 icon: archive
 type: page
@@ -15,7 +15,7 @@ type: page
         <hr>
         <ul>
           {% for post in site.posts %}
-
+            {% if post.tags.size == 0 %}
             {% unless post.next %}
               <h2 id="y{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</h2>
             {% else %}
@@ -35,7 +35,7 @@ type: page
                 {% include category.html %}
                 {% include tag.html %}
             </li>
-
+            {% endif %}
           {% endfor %}
         </ul>
     </div>
@@ -49,16 +49,19 @@ type: page
                     Content
                 </div>
                 <ul id="content-side" class="content-ul">
-                    {% assign counter = 0 %}
-                        {% for post in site.posts %}
-                          {% assign thisyear = post.date | date: "%Y" %}
-                          {% assign prevyear = post.previous.date | date: "%Y" %}
-                          {% assign counter = counter | plus: 1 %}
-                          {% if thisyear != prevyear %}
-                            <li><a data-scroll href="#y{{ post.date | date: '%Y' }}">{{ thisyear }} ({{ counter }})</a></li>
-                            {% assign counter = 0 %}
-                          {% endif %}
-                        {% endfor %}
+                  {% assign counter = 0 %}
+                  {% for post in site.posts %}
+                    {% if post.tags.size == 0 %}
+
+                      {% assign thisyear = post.date | date: "%Y" %}
+                      {% assign prevyear = post.previous.date | date: "%Y" %}
+                      {% assign counter = counter | plus: 1 %}
+                      {% if thisyear != prevyear %}
+                        <li><a data-scroll href="#y{{ post.date | date: '%Y' }}">{{ thisyear }} ({{ counter }})</a></li>
+                        {% assign counter = 0 %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Dune Impérium"
-categories: Jeux
-tags: ["Draft", "Deck Building", "Pose d'ouvriers"]
-author: Florent Devin
+title:  "Terraforming mars"
+tags: ["Draft", "Deck Building"]
+owner: [ "Florent Devin"]
+author: "Florent Devin"
 mathjax: true
 ---
 

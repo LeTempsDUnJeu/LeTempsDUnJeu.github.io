@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Dune Impérium"
-categories: Jeux
-tags: Draft, Deck Building, Pose d'ouvrier
-tag-name: ["Draft", "Deck building", "Pose d'ouvriers"]
-author: Florent Devin
+title:  "Dune Imperium"
+tags: ["Draft", "Deck Building", "Pose d'ouvriers"]
+owner: [ "Florent Devin", "Thierry Pradelle"]
+author: "Florent Devin"
 mathjax: true
 ---
 

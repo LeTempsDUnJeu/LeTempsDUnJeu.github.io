@@ -25,10 +25,15 @@ dribbble_username:
 
 description_footer: Le temps d'un jeu
 
+# seo
+description: Association ludique de PONTACQ. Jeux de société modernes.
+keywords: [ "Association", "Ludique", "Jeu de société", "pontacq", "lamarque-pontacq" ]
+locale: fr_FR
+
 # comments
 # two ways to comment, only choose one, and use your own short name
 duoshuo_shortname:
-disqus_shortname:
+disqus_shortname: associationletempsdunjeu
 
 # statistic analysis
 baidu_tongji_id:
@@ -45,9 +50,12 @@ kramdown:
 # port: 1234
 
 # collections
-collections:
-  game:
-    output: true
+#collections:
+#  game:
+#    output: true
+#    sortedBy: title
+#  gametags:
+#    output: true
 
 # url
 category_dir: category/
@@ -62,9 +70,8 @@ paginate: 10
 
 # tagging
 gems: [jekyll/tagging]
-tag_page_layout: tag_page
-tag_page_dir: tag
 
 plugins:
   - jekyll-paginate
-  - jekyll/tagging
+  - jekyll-sitemap
+  - jekyll-seo-tag
