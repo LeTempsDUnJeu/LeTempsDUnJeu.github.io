@@ -29,6 +29,7 @@ description_footer: Le temps d'un jeu
 description: Association ludique de PONTACQ. Jeux de société modernes.
 keywords: [ "Association", "Ludique", "Jeu de société", "pontacq", "lamarque-pontacq" ]
 locale: fr_FR
+logo: /static/Logo.png
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -37,7 +38,7 @@ disqus_shortname: associationletempsdunjeu
 
 # statistic analysis
 baidu_tongji_id:
-google_analytics_id: G-CCEJ417DC1 
+google_analytics_id: UA-73690135-1
 
 # Build settings
 markdown: kramdown

@@ -10,7 +10,7 @@ mathjax: true
 * content
 {:toc}
 
-![Brass birmingham](https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__imagepage/img/-17KkOmxbTu2slJTabGrkO8ZW8s=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3490053.jpg)
+![Brass birmingham](/static/brassBirmingham.png)
 
 
 ## Présentation

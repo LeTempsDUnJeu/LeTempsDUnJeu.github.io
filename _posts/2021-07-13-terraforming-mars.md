@@ -11,7 +11,7 @@ mathjax: true
 {:toc}
 
 # Terraforming mars
-![Terraforming mars](https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__imagepage/img/FS1RE8Ue6nk1pNbPI3l-OSapQGc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3536616.jpg)
+![Terraforming mars](/static/terraformingMars.png)
 
 
 ## Présentation
