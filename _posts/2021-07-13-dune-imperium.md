@@ -1,23 +1,20 @@
 ---
 layout: post
 title:  "Dune Imperium"
-tags: ["Draft", "Deck Building", "Pose d'ouvriers", "1 joueur", "2 joueurs", "3 joueurs", "4 joueurs", "Best 3", "Best 4"]
+tags: [ "Draft", "Deck Building", "Pose d'ouvriers", "1 joueur", "2 joueurs", "3 joueurs", "4 joueurs", "Best 3", "Best 4"]
 owner: [ "Florent Devin", "Thierry Pradelle"]
 author: "Florent Devin"
+description: "Dune : Imperium est un jeu qui s'inspire des éléments et des personnages de l'héritage de Dune, à la fois le nouveau film de Legendary Pictures et la série littéraire de Frank Herbert, Brian Herbert et Kevin J. Anderson."
+
 mathjax: true
 ---
-
 * content
 {:toc}
 
-# Dune Impérium
 ![dune impérium](/static/duneImperium.png)
 
 
-## Présentation
-**Dune : Imperium** est un jeu qui s'inspire des éléments et des personnages de l'héritage de Dune, à la fois le nouveau film de Legendary Pictures et la série littéraire de Frank Herbert, Brian Herbert et Kevin J. Anderson.
-
-En tant que dirigeant de l'une des grandes maisons du Landsraad, levez votre bannière et rassemblez vos forces et vos espions. La guerre approche, et au centre du conflit se trouve Arrakis - Dune, la planète déserte.
+**Dune : Imperium** est un jeu qui s'inspire des éléments et des personnages de l'héritage de Dune, à la fois le nouveau film de Legendary Pictures et la série littéraire de Frank Herbert, Brian Herbert et Kevin J. Anderson. En tant que dirigeant de l'une des grandes maisons du Landsraad, levez votre bannière et rassemblez vos forces et vos espions. La guerre approche, et au centre du conflit se trouve Arrakis - Dune, la planète déserte.
 
 Dune : Imperium utilise le deck-building pour ajouter un angle d'information cachée au placement traditionnel d'ouvriers.
 

@@ -10,12 +10,14 @@ title: Le temps d'un jeu
 brief-intro: Site web de l'association ludique
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://letempsdunjeu.github.io/" # the base hostname & protocol for your site
+canonical_domain: https://letempsdunjeu.github.io/
+
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username:
-facebook_username:
+facebook_username: Le-Temps-dun-Jeu-Association-Pontacq-103536045334457
 github_username:
 email: letempsdunjeu@ik.me
 weibo_username:
@@ -63,7 +65,7 @@ category_dir: category/
 tag_dir: tag/
 
 # excerpt
-excerpt_separator: "\n\n\n\n"
+excerpt_separator: <!--more-->
 
 # paginate
 gems: [jekyll-paginate]
@@ -71,6 +73,11 @@ paginate: 10
 
 # tagging
 gems: [jekyll/tagging]
+
+#saas:
+saas:
+        sass_dir: _saas
+
 
 plugins:
   - jekyll-paginate

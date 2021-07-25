@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: Les jeux par type
 permalink: /tag/
 icon: tags
 type: page
@@ -13,22 +13,16 @@ type: page
         {% capture tags %}{% for tag in site.tags %}{{tag[0]}}#{% endfor %}{% endcapture %}
         {% assign sortedtags = tags | split:'#' | sort %}
 
-        <ul>
         {% for tag in sortedtags %}
           <h2 id="{{ tag }}">{{ tag }}</h2>
+        <ul class="numerote">
           {% for post in site.tags[tag] %}
-            <li>
-                <time>
-                {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-                </time>
-                <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-                {% include category.html %}
-                {% include tag.html %}
+            <li><i class="fa fa-solid fa-cubes"></i>
+              <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </li>
           {% endfor %}
-        {% endfor %}
         </ul>
+        {% endfor %}
 
     </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
@@ -38,7 +32,7 @@ type: page
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    Type de jeux
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% for tag in sortedtags %}

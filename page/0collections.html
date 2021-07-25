@@ -35,6 +35,9 @@ type: page
 
                 {% include category.html %}
                 {% include tag.html %}
+                <br/>
+                {{ post.description}} <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>La suite de l'article</a>
+                <hr/>
             </li>
             {% endunless %}
           {% endfor %}
@@ -47,7 +50,7 @@ type: page
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    Les jeux par date
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% assign counter = 0 %}

@@ -4,17 +4,18 @@ title:  "Terraforming mars"
 tags: ["Draft", "Deck Building", "Gestion de main", "Placement de tuiles", "1 joueur", "2 joueurs", "3 joueurs", "4 joueurs", "5 joueurs", "Best 3"]
 owner: [ "Florent Devin"]
 author: "Florent Devin"
+description: "Dans les années 2400, l'humanité commence à terraformer la planète Mars. Des sociétés géantes, parrainées par le gouvernement mondial sur
+Terre, lancent d'énormes projets pour augmenter la température, le niveau d'oxygène et la couverture océanique jusqu'à ce que l'environnement soit habitable. Dans Terraforming Mars, vous jouez le rôle d'une de ces entreprises."
 mathjax: true
 ---
-
+<!--more-->
 * content
 {:toc}
 
-# Terraforming mars
 ![Terraforming mars](/static/terraformingMars.png)
 
 
-## Présentation
+# Présentation
 Dans les années 2400, l'humanité commence à terraformer la planète Mars. Des sociétés géantes, parrainées par le gouvernement mondial sur Terre, lancent d'énormes projets pour augmenter la température, le niveau d'oxygène et la couverture océanique jusqu'à ce que l'environnement soit habitable. Dans Terraforming Mars, vous jouez le rôle d'une de ces entreprises et vous travaillez ensemble au processus de terraformation, mais vous êtes en compétition pour obtenir des points de victoire qui sont attribués non seulement pour votre contribution à la terraformation, mais aussi pour l'avancement de l'infrastructure humaine dans tout le système solaire, et pour d'autres actions louables.
 
 Les joueurs acquièrent des cartes de projet uniques (parmi plus de deux cents différentes) en les achetant à leur main. Les projets (cartes) peuvent représenter n'importe quoi, depuis l'introduction de la vie végétale ou animale, le lancement d'astéroïdes à la surface, la construction de villes, jusqu'à l'exploitation minière des lunes de Jupiter et la création d'industries de gaz à effet de serre pour réchauffer l'atmosphère. Les cartes peuvent vous donner des bonus immédiats, ainsi qu'augmenter votre production de différentes ressources. De nombreuses cartes ont également des exigences et elles deviennent jouables lorsque la température, l'oxygène ou la couverture océanique augmentent suffisamment. L'achat de cartes est coûteux, il y a donc un équilibre entre l'achat de cartes (3 mégacrédits par carte) et le fait de les jouer (ce qui peut coûter entre 0 et 41 mégacrédits, selon le projet). Les projets standard sont toujours disponibles pour compléter vos cartes.

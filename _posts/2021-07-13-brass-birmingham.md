@@ -4,6 +4,7 @@ title:  "Brass Birmingham"
 tags: ["Gestion de main", "Arbre de technologies", "1 joueur", "2 joueurs", "3 joueurs", "4 joueurs", "Best 3", "Best 4"]
 owner: [ "Florent Devin"]
 author: "Florent Devin"
+description: "Brass : Birmingham est un jeu de stratégie économique qui fait suite au chef-d'œuvre de Martin Wallace en 2007, Brass. Birmingham raconte l'histoire d'entrepreneurs concurrents à Birmingham pendant la révolution industrielle, entre les années 1770 et 1870."
 mathjax: true
 ---
 

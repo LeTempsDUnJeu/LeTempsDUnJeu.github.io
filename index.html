@@ -1,106 +1,53 @@
 ---
 layout: default
 ---
-
 <div class="page clearfix" index>
   <div class="left">
-    <h1>Dernières nouvelles</h1>
-        <hr>
-        <ul>
-          {% for post in paginator.posts %}
-          {% if post.tags.size == 0 %}
-              <li>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-                <div class="label">
-                    <div class="label-card">
-                        <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
-                    </div>
-                    <div class="label-card">
-                        {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
-                        {% endif %}
-                    </div>
-                    <div class="label-card">
-                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
-                    </div>
 
-                    <div class="label-card">
-                    {% include category.html %}
-                    </div>
-
-                </div>
-                <div class="excerpt">
-                    {{post.excerpt}}
-                </div>
-                <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
-                </div>
-                <hr>
-              </li>
-              {% endif %}
-            {% endfor %}
-        </ul>
-
-
-
-        <!-- Pagination links -->
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous"><i class="fa fa-angle-left"></i></a>
-          {% else %}
-            <span class="previous disable"><i class="fa fa-angle-double-left"></i></span>
-            <span class="previous disable"><i class="fa fa-angle-left"></i></span>
-          {% endif %}
-          <span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}</span>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-angle-right"></i></a>
-            <a href="{{ site.baseurl }}/page{{ paginator.total_pages }}" class="next"><i class="fa fa-angle-double-right"></i></a>
-          {% else %}
-            <span class="next disable"><i class="fa fa-angle-right"></i></span>
-            <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
-          {% endif %}
-        </div>
-    </div>
-    <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
-    <div class="right">
+    <h1 id="création-de-lassociation">Le temps d'un jeu</h1>
+    <img src="/static/Logo.png" alt="logo">
+    <p>L’association « LE TEMPS D’UN JEU » a pour objet de  promouvoir le jeu et l’activité ludique. Elle se donne pour objectif de donner à jouer, de favoriser les  rencontres et échanges, de faciliter la socialisation, de favoriser les acquisitions et échanges culturels,  d’aider l’apprentissage d’une consommation avertie, et de participer à la conservation du patrimoine  ludique.</p>
+    <p><img src="/static/jeux-de-societe-a-deux.png" alt="image"></p>
+    <p>Nous sommes un groupe de joueurs de jeux de plateau modernes, et désirons  partager notre passion. Nous disposons de jeux qui demandent réflexion, concentration et  planification, mais aussi bluff, trahison et amusement. Dune Imperium, Terraforming Mars, Pillards  de Sythie, Brass, Altiplano, Concordia … ces noms vous sont familiers ? Ou bien vous ne les  connaissez pas encore ? Que vous soyez expert ou novice, venez nous rencontrer un soir. Thierry,  Florent, Papaours et Lise expliqueront les règles et, le temps d’un jeu, vous deviendrez chef d’un  empire antique, éleveur au Pérou ou pionnier d’une planète lointaine. Vous poserez des « ouvriers »,  construirez des « decks » et gagnerez des points de « victoire ».</p>
+    <p><strong>L’association se réunit dans la salle des fêtes de la mairie de PONTACQ, côté théâtre, dès septembre 2021, le lundi à 20h</strong>. À nous de la faire grandir, tous ensemble !</p>
+    <p><em>Adhésion réservée aux personnes de plus de 18 ans.</em></p>
+    <p>Pour tous renseignements, contactez-nous via le bandeau en bas de page</p>
+    <hr>
+  </div>
+      <div class="right">
         <div class="wrap">
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    Recent Posts
+                    Actualités
                 </div>
                 <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 10  %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                  {% for post in site.posts offset: 0 limit: 10  %}
+                  {% if post.tags.size == 0 %}
+                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                  {% endif %}
                     {% endfor %}
                 </ul>
             </div>
 
-            <!-- Content -->
-            <div class="side ">
+            <div class="side">
                 <div>
-                    <i class="fa fa-th-list"></i>
-                    Categories
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                    Les derniers jeux ajoutés
                 </div>
-                <ul class="content-ul" cate>
-                    {% for category in site.categories %}
-                    <li>
-                        <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
-                            <span class="name">
-                                {{ category | first }}
-                            </span>
-                            <span class="badge">{{ category | last | size }}</span>
-                        </a>
-                    </li>
+                <ul class="content-ul" recent>
+                  {% for post in site.posts offset: 0 limit: 10  %}
+                  {% unless post.tags.size == 0 %}
+                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                  {% endunless %}
                     {% endfor %}
                 </ul>
             </div>
+            <!-- Content -->
             <div class="side">
                 <div>
                     <i class="fa fa-tags"></i>
-                    Tags
+                    Types de jeux
                 </div>
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
@@ -151,7 +98,7 @@ layout: default
                 </ul>
             </div> -->
         </div>
-    </div>
+      </div>
 </div>
 <!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->

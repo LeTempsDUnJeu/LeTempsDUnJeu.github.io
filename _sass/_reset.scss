@@ -1,3 +1,16 @@
+
+$orange: #D79922;
+$orange-dark: #d46c25;
+$jaune: #EFE2BA;
+$jaune-dark: #D7B652;
+$rouge: #F13C20;
+$rouge-dark: #B4220B;
+$bleu: #4056A1;
+$bleu-dark: #2D3C71;
+$grisbleu: #C5CBE3;
+$grisbleu-dark: #6F7EBA;
+
+
 body,
 html,
 div,
@@ -28,11 +41,13 @@ html {
 }
 body {
     font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+    font-display: swap;
     color: #333;
-    background-image: url(https://gw.alicdn.com/tfs/TB1xzbUumBYBeNjy0FeXXbnmFXa-125-121.png);
+    //    background-image: url(/static/background.png);
+    background-color: $grisbleu;
     position: relative;
     min-height: 100%;
-    padding-bottom: 190px;
+    padding-bottom: 80px;
 }
 a {
     text-decoration: none;
@@ -49,6 +64,7 @@ hr {
 
 ///////////
 h1 {
+    color: $orange-dark;
     font-size: 30px;
 }
 h2 {

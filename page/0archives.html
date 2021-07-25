@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Toutes les news
+title: Les actualités
 permalink: /archive/
 icon: archive
 type: page
 ---
-
-<!-- <h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1> -->
-
 
 <div class="page clearfix">
     <div class="left">
@@ -26,14 +23,15 @@ type: page
               {% endif %}
             {% endunless %}
 
-            <li>
+            <li class="actualites">
                 <time>
                 {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
                 </time>
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
                 {% include category.html %}
-                {% include tag.html %}
+                <p class="excerpt" >
+                  {{ post.description }}
+                </p>
             </li>
             {% endif %}
           {% endfor %}
@@ -46,7 +44,7 @@ type: page
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    Catégories
                 </div>
                 <ul id="content-side" class="content-ul">
                   {% assign counter = 0 %}
@@ -64,8 +62,6 @@ type: page
                   {% endfor %}
                 </ul>
             </div>
-            <!-- 其他div框放到这里 -->
-            <!-- <div class="side">bbbb</div> -->
         </div>
     </div>
 </div>
