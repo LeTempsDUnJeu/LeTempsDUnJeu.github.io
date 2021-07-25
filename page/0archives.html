@@ -30,7 +30,7 @@ type: page
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 {% include category.html %}
                 <p class="excerpt" >
-                  {{ post.description }}
+                  {{ post.description }}  <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>La suite de l'article</a>
                 </p>
             </li>
             {% endif %}
