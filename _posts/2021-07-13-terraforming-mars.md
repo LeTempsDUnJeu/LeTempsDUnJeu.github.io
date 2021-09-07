@@ -8,7 +8,6 @@ description: "Dans les années 2400, l'humanité commence à terraformer la plan
 Terre, lancent d'énormes projets pour augmenter la température, le niveau d'oxygène et la couverture océanique jusqu'à ce que l'environnement soit habitable. Dans Terraforming Mars, vous jouez le rôle d'une de ces entreprises."
 mathjax: true
 ---
-<!--more-->
 * content
 {:toc}
 
